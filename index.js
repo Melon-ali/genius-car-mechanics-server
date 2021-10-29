@@ -69,7 +69,7 @@ app.get('/', (req, res) => {
     res.send('Running Genius Server');
 });
 
-app.git('/hello', (req, res) => {
+app.get('/hello', (req, res) => {
     res.send('Hello updated here')
 })
 
